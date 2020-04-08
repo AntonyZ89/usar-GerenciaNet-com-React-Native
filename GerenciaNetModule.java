@@ -35,7 +35,7 @@ public class GerenciaNetModule extends ReactContextBaseJavaModule {
     public void getPaymentToken(String brand, String cvv, String number, String expiration_month, String expiration_year, Callback callback) {
         Config config = new Config();
         config.setAccountCode("ACCOUNT_CODE"); // localizado em https://sistema.gerencianet.com.br/minha-conta/validacoes em "Identificador de Conta"
-        config.setSandbox(true);
+        config.setSandbox(true); // Troque para False quando usado em PRODUÇÃO
 
         CreditCard creditCard = new CreditCard();
         creditCard.setBrand(brand);
