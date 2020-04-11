@@ -1,24 +1,6 @@
  Usar GerenciaNet com React Native
  --
  
- #### Instalação
- 
-Via gradle:
-
-```
-compile 'br.com.gerencianet.mobile:gn-api-sdk-android:0.6'
-```
-
-Via maven:
-
-```
-<dependency>
-    <groupId>br.com.gerencianet.mobile</groupId>
-    <artifactId>gn-api-sdk-android</artifactId>
-    <version>0.6</version>
-</dependency>
-```
-
 #### Instalação
 
 *Limpe o projeto e rebuild se necessário*
